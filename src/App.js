@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-const GA_ID = "G-BK5PFD3319";
+const GA_ID = "G-LNV2RRM70D";
 
 const pageNames = {
   welcome:  { path: "/welcome",            title: "Welcome" },
