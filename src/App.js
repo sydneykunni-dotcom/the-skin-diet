@@ -498,6 +498,7 @@ function AboutOverlay({ onClose }) {
 }
 
 export default function App() {
+
   const [step, setStep]                       = useState("welcome");
   const [skinType, setSkinType]               = useState(null);
   const [concern, setConcern]                 = useState([]);
