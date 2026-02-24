@@ -1,10 +1,12 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import App from './App';
+import React from "react";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+function App() {
+  return (
+    <div style={{ padding: "40px", fontFamily: "sans-serif" }}>
+      <h1>The Skin Diet</h1>
+      <p>Your skincare routine based on how your skin feels today.</p>
+    </div>
+  );
+}
+
+export default App;
